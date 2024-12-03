@@ -17,7 +17,11 @@
   },
   "dependencies": {
     "@mdx-js/react": "^2.3.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@turf/turf": "^7.1.0",
     "autoprefixer": "^10.4.20",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "gatsby": "^5.14.0",
     "gatsby-plugin-image": "^3.14.0",
     "gatsby-plugin-manifest": "^5.14.0",
@@ -26,15 +30,21 @@
     "gatsby-plugin-sharp": "^5.14.0",
     "gatsby-source-filesystem": "^5.14.0",
     "gatsby-transformer-sharp": "^5.14.0",
+    "lucide-react": "^0.462.0",
+    "maplibre-gl": "^4.7.1",
     "postcss": "^8.4.49",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwindcss": "^3.4.15"
+    "react-map-gl": "^7.1.7",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss": "^3.4.15",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@types/geojson": "^7946.0.14",
     "@types/node": "^20.11.19",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
-    "typescript": "^5.3.3"
+    "typescript": "^5.7.2"
   }
 }
